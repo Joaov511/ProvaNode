@@ -1,0 +1,81 @@
+#LoginPage
+    height: 100%
+    width: 100%
+    display: flex
+    align-items: center
+    justify-content: space-between
+    padding: 0 8rem
+    background-image: url(./../../Image/Frame.svg)
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+    @media (max-width: 1200px) 
+        justify-content: center
+        padding: 10px 10px
+    
+
+
+#mainLogin 
+    display: flex
+    position: relative
+    flex-direction: row
+    align-items: center
+    height: 60%
+    border-radius: 40px
+    background: white
+    margin-top:0
+    
+
+
+    @media (max-width: 799px)
+        width: 100%
+        justify-content: center
+        margin-right: 0
+        margin-left: 0
+    @media (min-width: 800px) and (max-width: 1040px) 
+        width: 100%
+        justify-content: center
+        margin-right: 7.5rem
+        margin-left: 7.5rem
+
+    @media (min-width: 1041px) and (max-width: 1270px) 
+        width: 100%
+        justify-content: center
+        margin-right: 12.5rem
+        margin-left: 12.5rem
+
+#LoginArea 
+    display: flex
+    align-items: center
+    flex-direction: column
+    gap: 5px
+
+    #title 
+        width: 80%
+        h1 
+            font-family: "Lufga Regular"
+        
+    
+
+    #alterLogin 
+        width: 100%
+        display: flex
+        align-items: center
+        justify-content: center
+        button
+            display: flex
+            align-items: center
+            justify-content: center
+            gap: 15px
+            background: white
+            border: 2px solid black
+            height: 45px
+            border-radius: 15px
+            width: 80%
+            font-size: 1rem
+            cursor: pointer
+            transition: .3s ease
+
+            &:hover 
+                background-color: #d8d8d8
+            

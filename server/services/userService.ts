@@ -1,0 +1,4 @@
+interface userService{
+    login();
+    signup()
+}

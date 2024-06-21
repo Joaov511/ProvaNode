@@ -1,0 +1,22 @@
+{
+    "Login" : [{
+        "name" : "Pezão" ,
+        "type" :"food" ,
+        "desc" : "Melhor peixaria de Indaiatuba e região",
+        "rate" : "4",
+        "link" : "/teste/26"
+    },{
+        "name" : "Casa da Esfiha" ,
+        "type" :"food" ,
+        "desc" : "Melhor esfiharia de Indaiatuba e região",
+        "rate" : "4.2",
+        "link" : "/teste/19"
+    },{
+        "name" : "Grill Sul",
+        "type" : "food",
+        "desc" : "Churrascaria para quem é apaixonado por carne",
+        "rate" : "5",
+        "link" : "/teste/20"
+    }
+]
+}
